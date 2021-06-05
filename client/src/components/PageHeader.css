@@ -1,0 +1,41 @@
+#page-header-container {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+#menu-icon {
+  display: none;
+}
+
+#tabs {
+  display: flex;
+  gap: 30px;
+}
+
+.tab {
+  width: auto;
+}
+
+.tab:hover {
+  text-shadow: 0 0 .9px #333, 0 0 .9px #333, 0 0 .9px #333; 
+  cursor: pointer;
+}
+
+@media screen and (max-width : 780px) {
+  #tabs {
+    display: none;
+  }
+
+  #menu-icon {
+    display: block;
+    height: 30px;
+    width: 30px;
+  }
+
+  #menu-icon {
+    cursor: pointer;
+  }
+
+}
