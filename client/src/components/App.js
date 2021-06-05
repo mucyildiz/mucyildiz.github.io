@@ -1,6 +1,15 @@
+import PageHeader from './PageHeader'
+import Introduction from './Introduction';
+import './App.css';
+
 function App() {
   return (
-    <div>Test</div>
+    <div id='app-container'>
+      <PageHeader />
+      <div id='content'>
+        <Introduction />
+      </div>
+    </div>
   )
 }
 
