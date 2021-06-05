@@ -1,0 +1,13 @@
+#greeting {
+  font-size: clamp(20px, 30px, 40px);
+}
+
+#name {
+  font-size: clamp(30px, 7vw, 80px);
+  font-weight: 700;
+}
+
+#subtitle {
+  font-size: clamp(30px, 8vw, 80px);
+  font-weight: 600;
+}
