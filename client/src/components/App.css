@@ -1,0 +1,14 @@
+#app-container{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  font-family: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
