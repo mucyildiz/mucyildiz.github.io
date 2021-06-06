@@ -1,5 +1,10 @@
+#intro-container {
+  padding-bottom: 200px;
+}
+
 #greeting {
   font-size: clamp(20px, 30px, 40px);
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;;
 }
 
 #name {
@@ -10,4 +15,33 @@
 #subtitle {
   font-size: clamp(30px, 8vw, 80px);
   font-weight: 600;
+}
+
+#message {
+  padding-top: 30px;
+  font-size: clamp(20px, 20px, 30px);
+  font-weight: 500;
+  padding-bottom: 65px;
+}
+
+#contact {
+  border: 2px solid black;
+  border-radius: 0px;
+  padding: 9px 18px;
+  display: inline-block;
+  font-size: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: 0 0 0 0 #b9b8e7;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  background-color: transparent;
+  color: black;
+  border-radius: 12px;
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;;
+}
+
+#contact:hover {
+  background-color: rgba(0, 0, 0, 0.2)
 }
