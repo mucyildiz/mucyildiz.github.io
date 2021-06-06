@@ -1,5 +1,6 @@
 import PageHeader from './PageHeader'
 import Introduction from './Introduction';
+import AboutMe from './AboutMe';
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <PageHeader />
       <div id='content'>
         <Introduction />
+        <AboutMe />
       </div>
     </div>
   )
