@@ -1,0 +1,20 @@
+
+#projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding-top: 25px;
+  gap: 15px;
+}
+
+.project-name {
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+}
+
+.desc {
+  font-size: 20px;
+}
+
+.tech {
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+}

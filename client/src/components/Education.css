@@ -1,0 +1,30 @@
+#school-name {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#umass {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#education {
+  display: flex;
+  font-size: 20px;
+}
+
+#degree {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#courses {
+  display: flex;
+  flex-direction: column;
+}
+
+#classes {
+  width: 50%;
+  font-size: 20px;
+}

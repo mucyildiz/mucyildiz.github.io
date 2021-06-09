@@ -7,10 +7,11 @@
   margin-right: 75px;
 }
 
-#content {
+#main-content {
+  padding-top: 125px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 100px;
 }
 
 @media screen and (min-width : 1000px) {
