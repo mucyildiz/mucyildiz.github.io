@@ -5,6 +5,11 @@
   font-size: 20px;
 }
 
+#logo {
+  width: 170px;
+  height: 130px;
+}
+
 #menu-icon {
   display: none;
 }
@@ -19,7 +24,7 @@
 }
 
 .tab:hover {
-  text-shadow: 0 0 .9px #333, 0 0 .9px #333, 0 0 .9px #333; 
+  text-shadow: 0 0 .9px white, 0 0 .9px white, 0 0 .9px white; 
   cursor: pointer;
 }
 

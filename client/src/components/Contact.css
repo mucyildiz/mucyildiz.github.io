@@ -1,0 +1,12 @@
+#contacts {
+  padding-top: 50px;
+  display: flex;
+  gap: 50px;
+  padding-bottom: 150px;
+}
+
+
+.contact {
+  width: 150px;
+  height: 150px;
+}

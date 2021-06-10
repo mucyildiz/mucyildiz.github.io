@@ -4,6 +4,7 @@ import AboutMe from './AboutMe';
 import Projects from './Projects';
 import Education from './Education';
 import Skills from './Skills';
+import Contact from './Contact';
 import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Projects />
           <Education />
           <Skills />
+          <Contact />
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ function Introduction() {
       <div id='greeting'>Hello! My name is</div>
       <div id='name'>Mucahit Alperen Yildiz.
         <br/> 
-        <span id='subtitle'>I enjoy being creative.</span>
+        <span id='subtitle'>I like to create.</span>
       </div>
       <div id='message'>
         I am an aspiring software developer fresh out of the

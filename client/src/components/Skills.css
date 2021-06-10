@@ -1,0 +1,16 @@
+#skills-container {
+  padding-bottom: 50px;
+}
+
+.skill {
+  height: 100px;
+  width: 100px;
+}
+
+#logos {
+  padding-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 25px;
+}

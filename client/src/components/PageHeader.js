@@ -3,7 +3,7 @@ import './PageHeader.css';
 function PageHeader() {
   return (
     <div id='page-header-container'>
-      <div id='logo'>Placeholder</div>
+      <img id='logo' src='/assets/images/versioncontrol.svg' alt='' />
       <div id='tabs'>
         <div className='tab'>about</div>
         <div className='tab'>projects</div>

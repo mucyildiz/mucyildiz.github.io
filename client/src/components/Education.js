@@ -8,7 +8,7 @@ function Education() {
       <div id='education'>
         <div id='degree'>
           <div id='school-name'>
-            <div id='umass'>University of Massachusetts Amherst - Amherst, MA</div>
+            <div id='umass'>University of Massachusetts Amherst</div>
             <div>September 2017 - May 2021</div>
           </div>
           <div>Bachelors of Science in Mathematics</div>
@@ -18,8 +18,27 @@ function Education() {
       </div>
       <div id='courses'>
           <h2>Relevant Coursework</h2>
-          <div id='classes'>Analysis of Algorithms, Data Structures, Databases (SQL), Data Analysis with Python, Regression Analysis, Combinatorics, Advanced
-            Calculus, Applied Linear Algebra
+          <div id='classes'>
+            <ul>
+              <li>Analysis of Algorithms</li>
+              <li>Data Structures</li>
+              <li>Discrete Structures</li>
+            </ul>
+            <ul>
+              <li>Databases (SQL)</li>
+              <li>Python Data Analysis</li>
+              <li>Regression Analysis</li>
+            </ul>
+            <ul>
+              <li>Combinatorics</li>
+              <li>Advanced Calculus</li>
+              <li>Applied Linear Algebra</li>
+            </ul>
+            <ul>
+              <li>Scientific Computing</li>
+              <li>Statistics</li>
+              <li>Differential Equations</li>
+            </ul>
           </div>
       </div>
     </div>

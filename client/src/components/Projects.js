@@ -35,13 +35,14 @@ function Projects() {
           <li>Spotify API</li>
           <li>Spotify OAuth</li>
           <li>React.js</li>
+          <li>Heroku</li>
         </ul>
       </div>
       <div className='tech'>
         <ul>
           <li>React.js</li>
           <li>reactsimplemaps</li>
-          <li>USA Today Immunization Data API</li>
+          <li>NBC News Immunization Data API</li>
         </ul>
       </div>
       <div className='tech'>
