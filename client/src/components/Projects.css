@@ -2,14 +2,15 @@
 #projects {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   padding-top: 25px;
   gap: 15px;
+  padding-bottom: 75px;
 }
 
 .project-name {
   font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
   color: white;
+  height: 50px;
 }
 
 .project-name:hover {
@@ -18,8 +19,32 @@
 
 .desc {
   font-size: 20px;
+  height: 150px;
 }
 
 .tech {
   font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+}
+
+@media screen and (max-width : 376px) {
+  #projects {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width : 780px) {
+  #projects {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .desc {
+    height: auto;
+    padding-bottom: 5px;
+  }
+
+  .project-name {
+    height: auto;
+  }
 }

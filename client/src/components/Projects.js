@@ -14,6 +14,15 @@ function Projects() {
             as input and creates a playlist based on that mood
             curated to the user's individual music taste.
           </div>
+          <div className='tech'>
+              <li>Express.js</li>
+              <li>Passport.js</li>
+              <li>Spotify API</li>
+              <li>Spotify OAuth</li>
+              <li>React.js</li>
+              <li>Heroku</li>
+              <li>Merriam Webster API</li>
+          </div>
         </div>
         <div className='project'>
           <a href='https://mucyildiz.github.io/StateHerdImmunityProjections/' target="_blank" rel="noreferrer">
@@ -24,6 +33,11 @@ function Projects() {
             herd immunity against the Coronavirus. Data is viewable in both map 
             and sortable table form.
           </div>
+          <div className='tech'>
+              <li>React.js</li>
+              <li>reactsimplemaps</li>
+              <li>NBC News Immunization Data API</li>
+          </div>
         </div>
         <div className='project'>
           <a href='https://github.com/mucyildiz/Vidmob-Calculator' target="_blank" rel="noreferrer">
@@ -33,32 +47,13 @@ function Projects() {
             Calculator made for take home test for job interview. Fully functional for addition, subtraction, multiplication, division,
             and parentheses.
           </div>
+          <div className='tech'>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Jest for testing</li>
+          </div>
         </div>
-      <div className='tech'>
-        <ul>
-          <li>Express.js</li>
-          <li>Passport.js</li>
-          <li>Spotify API</li>
-          <li>Spotify OAuth</li>
-          <li>React.js</li>
-          <li>Heroku</li>
-        </ul>
-      </div>
-      <div className='tech'>
-        <ul>
-          <li>React.js</li>
-          <li>reactsimplemaps</li>
-          <li>NBC News Immunization Data API</li>
-        </ul>
-      </div>
-      <div className='tech'>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Jest for testing</li>
-        </ul>
-      </div>
       </div>
     </div>
   )

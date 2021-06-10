@@ -10,3 +10,10 @@
   width: 150px;
   height: 150px;
 }
+
+@media screen and (max-width : 376px) {
+  #contacts {
+    flex-direction: column;
+    align-items: center;
+  }
+}

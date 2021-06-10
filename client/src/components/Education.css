@@ -34,4 +34,11 @@
   font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
 }
 
+@media screen and (max-width : 376px) {
+  #classes {
+    flex-direction: column;
+  }
+}
+
+
 ul li { padding: 5px 0px; }

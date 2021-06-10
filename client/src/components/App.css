@@ -20,3 +20,10 @@
     margin-right: 200px;
   }
 }
+
+@media screen and (max-width : 376px) {
+  #app-container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}

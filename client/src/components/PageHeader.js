@@ -1,15 +1,7 @@
 import './PageHeader.css';
 import Resume from './MucahitResume.pdf';
-import { useState } from 'react';
-import Menu from './Menu';
 
 function PageHeader() {
-
-  const [menuShown, setMenuShown] = useState(false);
-
-  const toggleMenu = () => {
-    setMenuShown(!menuShown);
-  }
 
   return (
     <div id='page-header-container'>
@@ -34,12 +26,6 @@ function PageHeader() {
           <div className='tab'>resume</div>
         </a>
       </div>
-      <div id='menu-icon' onClick={toggleMenu}>
-        <img style={{width: "30px", height: "30px"}} src='/assets/images/menu.svg' alt= "click to see all page sections"/>
-      </div>
-      {menuShown && 
-        <Menu />
-      }
     </div>
   )
 }
