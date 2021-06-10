@@ -7,14 +7,18 @@ function Projects() {
       <SectionHeader sectionName='Projects' />
       <div id='projects'>
         <div className='project'>
-          <h2 className='project-name'>Create Spotify Playlists</h2>
+          <a href='http://createspotifyplaylists.herokuapp.com/'>
+            <h2 className='project-name'>Create Spotify Playlists</h2>
+          </a>
           <div className='desc'>A Spotify Playlist Creator that takes in a mood
             as input and creates a playlist based on that mood
             curated to the user's individual music taste.
           </div>
         </div>
         <div className='project'>
-          <h2 className='project-name'>Covid State Herd Immunity</h2>
+          <a href='https://mucyildiz.github.io/StateHerdImmunityProjections/'>
+            <h2 className='project-name'>Covid State Herd Immunity</h2>
+          </a>
           <div className='desc'>
             Web Application that I used to predict when each state would gain
             herd immunity against the Coronavirus. Data is viewable in both map 
@@ -22,10 +26,12 @@ function Projects() {
           </div>
         </div>
         <div className='project'>
-          <h2 className='project-name'>German Enigma Machine</h2>
+          <a href='https://github.com/mucyildiz/Vidmob-Calculator'>
+            <h2 className='project-name'>Calculator</h2>
+          </a>
           <div className='desc'>
-            Python implementation of the German Enigma Encryption Machine
-            used in World War II and featured in the movie "The Imitation Game".
+            Calculator made for take home test for job interview. Fully functional for addition, subtraction, multiplication, division,
+            and parentheses.
           </div>
         </div>
       <div className='tech'>
@@ -47,8 +53,10 @@ function Projects() {
       </div>
       <div className='tech'>
         <ul>
-          <li>Python</li>
-          <li>Object Oriented Programming</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Jest for testing</li>
         </ul>
       </div>
       </div>
