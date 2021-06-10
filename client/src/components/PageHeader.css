@@ -21,6 +21,11 @@
 
 .tab {
   width: auto;
+  color: white;
+}
+
+a {
+  text-decoration: none;
 }
 
 .tab:hover {
@@ -37,9 +42,6 @@
     display: block;
     height: 30px;
     width: 30px;
-  }
-
-  #menu-icon {
     cursor: pointer;
   }
 

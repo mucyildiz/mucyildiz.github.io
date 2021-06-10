@@ -9,6 +9,11 @@
 
 .project-name {
   font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+  color: white;
+}
+
+.project-name:hover {
+  text-shadow: 0 0 .9px white, 0 0 .9px white, 0 0 .9px white; 
 }
 
 .desc {

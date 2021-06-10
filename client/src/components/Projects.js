@@ -7,7 +7,7 @@ function Projects() {
       <SectionHeader sectionName='Projects' />
       <div id='projects'>
         <div className='project'>
-          <a href='http://createspotifyplaylists.herokuapp.com/'>
+          <a href='http://createspotifyplaylists.herokuapp.com/' target="_blank" rel="noreferrer">
             <h2 className='project-name'>Create Spotify Playlists</h2>
           </a>
           <div className='desc'>A Spotify Playlist Creator that takes in a mood
@@ -16,7 +16,7 @@ function Projects() {
           </div>
         </div>
         <div className='project'>
-          <a href='https://mucyildiz.github.io/StateHerdImmunityProjections/'>
+          <a href='https://mucyildiz.github.io/StateHerdImmunityProjections/' target="_blank" rel="noreferrer">
             <h2 className='project-name'>Covid State Herd Immunity</h2>
           </a>
           <div className='desc'>
@@ -26,7 +26,7 @@ function Projects() {
           </div>
         </div>
         <div className='project'>
-          <a href='https://github.com/mucyildiz/Vidmob-Calculator'>
+          <a href='https://github.com/mucyildiz/Vidmob-Calculator' target="_blank" rel="noreferrer">
             <h2 className='project-name'>Calculator</h2>
           </a>
           <div className='desc'>
