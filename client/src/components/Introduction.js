@@ -4,7 +4,7 @@ function Introduction() {
   return (
     <div id='intro-container'>
       <div id='greeting'>Hello! My name is</div>
-      <div id='name'>Mucahit Alperen Yildiz.
+      <div id='name'>Alperen Yildiz.
         <br/> 
         <span id='subtitle'>I like to create.</span>
       </div>
