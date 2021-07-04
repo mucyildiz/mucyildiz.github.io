@@ -25,6 +25,25 @@ function Projects() {
           </div>
         </div>
         <div className='project'>
+          <a href='http://yildiz-bookworm.herokuapp.com/' target="_blank" rel="noreferrer">
+            <h2 className='project-name'>Bookworm</h2>
+          </a>
+          <div className='desc'>
+            Full stack library application utilizing the Google Books API to allow users to add books to library and remove them. Includes 
+            fully functioning search bar with automatic suggestions as user types.
+          </div>
+          <div className='tech'>
+              <li>React.js</li>
+              <li>Passport.js</li>
+              <li>MongoDB</li>
+              <li>Express.js</li>
+              <li>Google Books API</li>
+              <li>OAuth 2.0</li>
+              <li>Heroku</li>
+              <li>React Router</li>
+          </div>
+        </div>
+        <div className='project'>
           <a href='https://mucyildiz.github.io/StateHerdImmunityProjections/' target="_blank" rel="noreferrer">
             <h2 className='project-name'>Covid State Herd Immunity</h2>
           </a>
@@ -37,21 +56,7 @@ function Projects() {
               <li>React.js</li>
               <li>reactsimplemaps</li>
               <li>NBC News Immunization Data API</li>
-          </div>
-        </div>
-        <div className='project'>
-          <a href='https://github.com/mucyildiz/Vidmob-Calculator' target="_blank" rel="noreferrer">
-            <h2 className='project-name'>Calculator</h2>
-          </a>
-          <div className='desc'>
-            Calculator made for take home test for job interview. Fully functional for addition, subtraction, multiplication, division,
-            and parentheses.
-          </div>
-          <div className='tech'>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>Jest for testing</li>
+              <li>Used Inspect Element skills to find API in NBC News' Network Activity</li>
           </div>
         </div>
       </div>
