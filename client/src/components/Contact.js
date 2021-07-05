@@ -6,7 +6,7 @@ function Contact() {
     <div id='contact-container'>
       <SectionHeader sectionName='Contact Me!' />
       <div id='contacts'>
-        <a href='https://www.linkedin.com/in/alperen-yildiz-446576204/' target="_blank" rel="noreferrer">
+        <a href='https://www.linkedin.com/in/mucahit-yildiz-446576204/' target="_blank" rel="noreferrer">
           <img className='contact' src='https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg' alt='LinkedIn Profile' />
         </a>
         <a href='https://github.com/mucyildiz' target="_blank" rel="noreferrer">
